@@ -15,6 +15,9 @@ Create an array called `fruits` that contains:
 
 ```javascript
 // your code here
+const fruits = ["Apple", "Banana", "Orange"]
+console.log(fruits[0]);
+console.log(fruits);
 ```
 
 ---
@@ -25,6 +28,8 @@ Print the first and the last element of the `fruits` array.
 
 ```javascript
 // your code here
+console.log(fruits[0]);
+console.log(fruits[fruits.length-1])
 ```
 
 ---
@@ -35,6 +40,8 @@ Add `"Mango"` to the end of `fruits`.
 
 ```javascript
 // your code here
+fruits.push("Mango");
+console.log(fruits);
 ```
 
 ---
@@ -45,6 +52,8 @@ Add `"Grape"` to the beginning of `fruits`.
 
 ```javascript
 // your code here
+fruits.unshift("Grape");
+console.log(fruits);
 ```
 
 ---
@@ -55,6 +64,8 @@ Remove the last element from `fruits`.
 
 ```javascript
 // your code here
+fruits.pop();
+console.log(fruits);
 ```
 
 ---
@@ -65,6 +76,8 @@ Remove the first element from `fruits`.
 
 ```javascript
 // your code here
+fruits.shift();
+console.log(fruits);
 ```
 
 ---
@@ -75,6 +88,7 @@ Print how many items are in the `fruits` array.
 
 ```javascript
 // your code here
+console.log(fruits.length);
 ```
 
 ---
@@ -87,6 +101,7 @@ Expected output → `true` or `false`
 
 ```javascript
 // your code here
+console.log(fruits.includes("Banana"));
 ```
 
 ---
@@ -97,6 +112,7 @@ Find the index of `"Orange"` in the `fruits` array.
 
 ```javascript
 // your code here
+console.log(fruits.indexOf("Orange"));
 ```
 
 ---
@@ -109,8 +125,9 @@ Example output → `"Apple,Banana,Orange"`
 
 ```javascript
 // your code here
+console.log(fruits.join(","));
 ```
 
----
+---2
 
 Happy Coding! 🚀
